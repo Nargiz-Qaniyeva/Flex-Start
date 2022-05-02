@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    .main1{
+        .texts{
+            padding: 20px 0;
+            justify-content: center;
+            justify-items: center;
+            flex: 1;
+            line-height: 1.5;
+            font-size: 48px;
+            font-weight: 400;
+            opacity: 1;
+            transform: translateZ(0);
+        }
+        .text{
+            color: #012970;
+            font-family: $font;
+            font-size: 48px;
+            font-weight: 700;
+        }
+        .text2{
+            color: #444;
+            font-family: $font;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+        .row{
+            flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        margin-top: 0;
+        }
+
+    }
+    
+   .about{
+       h3{
+           font-size: 14px;
+           font-weight: 700;
+           color: #4154f1;
+           text-transform: uppercase;
+       }
+       h2{
+        font-size: 24px;
+        font-weight: 700;
+        color: #012970;
+       }
+       p{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        margin: 15px 0 30px 0;
+        line-height: 24px;
+        font-family: 'Open Sans', sans-serif;
+        color: #444444;
+       }
+   }
+
+   .values{
+    padding: 80px 0;
+    overflow: hidden;
+    margin: 20px;
+
+    .container{
+     width: 100%;
+     padding-right:12px;
+     padding-left: 12px;
+     margin-right: auto;
+     margin-left: auto;
+    }
+    
+   }
+//    .count{
+//        .fa-face-smile::before{
+//             display: inline-block;
+//             font-family: bootstrap-icons !important;
+//             font-style: normal;
+//             font-weight: normal !important;
+//             font-variant: normal;
+//             text-transform: none;
+//             line-height: 1;
+//             vertical-align: -0.125em;
+//        }
+//    }
+
+   .section-header{
+    text-align: center;
+    padding-bottom: 40px;
+        h2{
+            font-size: 13px;
+            letter-spacing: 1px;
+            font-weight: 700;
+            margin: 0;
+            color: #4154f1;
+            text-transform: uppercase;
+    }
+        p{
+            margin: 10px 0 0 0;
+            padding: 0;
+            font-size: 38px;
+            line-height: 42px;
+            font-weight: 700;
+            color: #012970;
+        }
+    }
+    .values{
+        .box{
+            padding: 50px;
+            box-shadow: 0px 0 5px rgb(1 41 112 / 8%);
+            text-align: center;
+            transition: 0.3s;
+            height: 100%;
+        }
+    }
+    .features{
+       img{
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+       }
+    }
+}
+ 
+
