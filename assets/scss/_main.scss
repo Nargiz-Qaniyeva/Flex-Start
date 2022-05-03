@@ -1,7 +1,23 @@
 *{
     box-sizing: border-box;
+    text-decoration: none;
+    font-size: medium;
 }
 main{
+    
+    .back{
+            position: fixed;
+            display: inline;
+            height: 20px;
+            width: 10px;
+            background-color: #444444;
+        .top{
+            
+            margin-top: 55%;
+            margin-left: 45%;
+           bottom: 20px;
+        }
+    }
     .main1{
         .texts{
             padding: 20px 0;
@@ -25,6 +41,11 @@ main{
             font-family: $font;
             font-size: 1rem;
             font-weight: 400;
+        }
+        .button{
+            text-decoration: none;
+            color: aliceblue;
+            border-color: #4154f1;
         }
         .row{
             flex-shrink: 0;
@@ -76,18 +97,6 @@ main{
     }
     
    }
-//    .count{
-//        .fa-face-smile::before{
-//             display: inline-block;
-//             font-family: bootstrap-icons !important;
-//             font-style: normal;
-//             font-weight: normal !important;
-//             font-variant: normal;
-//             text-transform: none;
-//             line-height: 1;
-//             vertical-align: -0.125em;
-//        }
-//    }
 
    .section-header{
     text-align: center;
@@ -112,19 +121,129 @@ main{
     .values{
         .box{
             padding: 50px;
-            box-shadow: 0px 0 5px rgb(1 41 112 / 8%);
+            box-shadow: 0px 0 5px rgb(1,41,112);
             text-align: center;
             transition: 0.3s;
             height: 100%;
         }
+        img{
+            width: 100%;
+        }
     }
     .features{
-       img{
-        max-width: 100%;
-        height: auto;
-        vertical-align: middle;
-       }
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+        .row{
+            align-self: center;
+            .feature-box{
+                i{
+                    font-size: 20px;
+                    margin-right: 20px;
+                }
+            }
+            .feature-icons{
+                font-size: medium;
+                i{
+                    font-size: 25px;
+                    color: #4154f1;
+                }
+            }
+        }
     }
-}
- 
+    .counts{
+        padding: 70px 0 60px;
+        .row{
+            .count-box{
+                border: 2px rgb(225, 213, 205);
+               
+               margin-right: 20px;
+               i{
+                font-size: 42px;
+               }
+            }
+        }
+    }
+    .services{
+        .service-box{
+            i{
+                font-size: 40px;
+                color: rgb(116, 209, 235);
+            }
+            .read-more{
+                i{
+                    font-size: 10px;
+                    text-decoration: none;
 
+                }
+            }
+            
+        }
+
+    }
+
+    .faq{
+        padding-top: 50px;
+        .row{
+            .accordion-button{
+                font-size: 18px;
+               font-weight: 600;
+               font-family: inherit;
+            }
+        }
+    }
+
+    .blog-posts{
+        padding-top: 50px;
+            .readmore{
+                display: flex;
+                align-items: center;
+                font-weight: 600;
+                line-height: 1;
+                transition: 3s;
+            }
+            a{
+                color: #4154f1;
+            }
+        }
+    }
+    .contact{
+        padding-top: 50px;
+        .sent-message{
+            .submit{
+                background-color: #5969f3;;
+            }
+        }
+        .info-box{
+            i{
+                font-size: 30px;
+                color: #4154f1;
+            }
+        }
+        .cont-us{
+            .btn{
+                padding-top: 10px;
+            }
+        }
+    }
+    .pricing{
+        .button {
+            /* text styles */
+            font-size: 11px;
+            line-height: 18px;
+            color: rgb(29, 58, 176);
+            text-decoration: none;
+            text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+            
+            /* box styles */
+            display: inline-block;
+            height: 19px;
+            padding: 0 10px;
+            border: 1px solid;
+            border-color: #2d86b6 #24659e #255796;
+            border-radius: 21px;
+            box-shadow: 0 1px 1px rgba(111, 51, 51, 0.2) inset, 0 1px 1px rgba(1, 4, 8, 0.2);
+    }
+    
+    }
